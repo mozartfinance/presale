@@ -1,0 +1,106 @@
+* {
+  font-family: 'Nunito';
+  box-sizing: border-box;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+ -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] {
+-moz-appearance: textfield;
+}
+
+.modal-video-movie-wrap {
+ box-shadow: 0px 0px 25px black !important;
+}
+
+.makeStyles-paper-2 {
+ background-color: #f5f5f5;
+}
+
+.buttonX {
+ width: 56px;
+ position: absolute;
+ right: 5%;
+ top: 5%;
+}
+
+.Closed {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Live {
+ background-color: rgb(54, 201, 142);
+}
+
+
+.liveFont {
+ font-family: "IBM Plex Mono";
+ font-style: normal;
+ font-weight: normal;
+ font-size: 12px;
+ line-height: 15px;
+ display: flex;
+ align-content: center;}
+
+.liveFont i {
+ width: 9px;
+ height: 9px;
+ border-radius: 50%;
+ margin-right: 8px;
+ align-self: center;
+}
+
+.priceState {
+ padding: 12px 0px;
+ display: flex;
+ flex-direction: column;
+ -webkit-box-pack: justify;
+ justify-content: space-between;
+ border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+ text-align: left;
+ position: relative;
+ margin-top: 36px;
+}
+
+.boldFont {
+ font-weight: bold;
+ font-size: 15px;
+ line-height: 29px;
+ margin-top: 8px;
+ padding-bottom: 12px;
+}
+
+.borderLine {
+ height: 4px;
+ background-color: rgb(0, 0, 0);
+}
+
+.bidAmount {
+ display: flex;
+ -webkit-box-pack: justify;
+ justify-content: space-between;
+ font-size: 12px;
+ line-height: 14.65px;
+ font-family: "Helvetica Neue";
+ color: rgb(31, 25, 27);
+ margin-top: 32px;
+}
+
+.pianoPrice {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    margin-top: 8px;
+    padding-bottom: 12px;
+}
+
+.unlockWallet {
+    width: fit-content;
+    position: fixed;
+    right: 50px;
+    top: 35px;
+}
