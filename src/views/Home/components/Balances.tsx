@@ -60,7 +60,7 @@ const Balances: React.FC = () => {
   const [depositNum, setNum] = useState(0)
 
   const web3 = new Web3(new Web3.providers.HttpProvider("https://bsc-dataseed.binance.org"));
-  const presaleContract = new web3.eth.Contract((ERC20ABI as unknown) as AbiItem, '0xbb6e81a3f7Bd1189eB4d5A82B2c4Df0c8E17CCca');
+  const presaleContract = new web3.eth.Contract((ERC20ABI as unknown) as AbiItem, '0xbDB2c7b6960C29A016212F76AA10F92c89b7CAE1');
 
   const handledeposit = async () => {
     const depositnum = await presaleContract.methods.getDepositAmount().call();
